@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Kỷ niệm lớp 12C10</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+nav{
+    background:#1e88e5;
+    padding:15px;
+    text-align:right;
+    width:100%;
+
+    position: fixed;  
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:600;
+	font-size:18px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+.banner{
+
+height:600px;
+
+background:url("images/anh4.jpg")
+center/cover;
+
+display:flex;
+flex-direction:column;
+
+justify-content:center;
+align-items:center;
+
+color:white;
+text-shadow:2px 2px 5px black;
+
+}
+
+.banner h1{
+
+font-size:50px;
+margin:0;
+
+}
+
+.banner p{
+
+font-size:20px;
+width:60%;
+text-align:center;
+
+}
+
+
+.section{
+    padding:100px 20px;
+    text-align:center;
+}
+
+img{
+    width:300px;
+    margin:20px;
+    border-radius:20px;
+}
+
+video{
+    display:block;
+    margin:30px auto;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 50px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.item p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top:auto;
+    background:#1e88e5;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+main {
+    flex: 1;
+}
+</style>
+</head>
+
+<body>
+<section id="media">
+
+<!-- MENU -->
+<nav>
+    <a href="#media">Trang chủ</a>
+    <a href="lop.html">Lớp chúng ta</a>
+    <a href="hoatdong.html">Hoạt động</a>
+    <a href="buoihoc.html">Buổi học</a>
+</nav>
+
+<!-- BANNER -->
+<main>
+<div class="banner" id="home">
+    <h1>MỘT THỜI ĐỂ NHỚ</h1>
+    <p>Tuổi học trò đáng nhớ...</p>
+</div>
+
+<!-- PHẦN ẢNH -->
+<div class="section">
+    <h2>HÌNH ẢNH KỶ NIỆM</h2>
+	<div class="container">
+	
+ <div class="item">
+        <img src="images/lop10.jpg" alt="Lớp 10">
+        <p>Lớp 10</p>
+    </div>
+
+	
+	<div class="item">
+        <img src="images/lop11.jpg" alt="Lớp 11">
+        <p>Lớp 11</p>
+    </div>
+    
+	<div class="item">
+        <img src="images/lop12.jpg" alt="Lớp 12">
+        <p>Lớp 12</p>
+    </div>
+    
+   
+</div>
+
+<!-- PHẦN VIDEO -->
+<div class="section">
+    <h2>VIDEO KỶ NIỆM</h2>
+<video width="500" height="500" controls>
+    <source src="videos/kyniem.mp4" type="video/mp4">
+</video>
+</div>
+</main>
+<footer>
+
+© 2026 — Tuổi học trò - Một thời để nhớ
+
+</footer
+</body>
+</html>
